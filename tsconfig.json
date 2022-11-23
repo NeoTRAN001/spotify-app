@@ -25,7 +25,9 @@
       "dom"
     ],
     "paths": {
-      "@components/*": ["app/shared/components/*"]
+      "@core/*": ["src/app/core/*"],
+      "@modules/*": ["src/app/modules/*"],
+      "@shared/*": ["src/app/shared/*"]
     }
   },
   "angularCompilerOptions": {
